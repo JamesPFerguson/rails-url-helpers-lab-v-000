@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   # the route, we'll keep it explicit for now and refactor later.
   #get "students/:id", to: "student#show"
 
-  get "students/:id/activate", to: "student#activate", as: "activate_student"
+  get "students/:id/activate", to: "students#activate", as: "activate_student"
 end
